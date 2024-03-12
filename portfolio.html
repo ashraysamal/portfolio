@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="desktop-nav">
+      <div class="logo">Ashray</div>
+      <div>
+        <ul class="nav-links">
+          <li><a class="nav-items" href="#About-page">About</a></li>
+          <li><a class="nav-items" href="#experience">Experience</a></li>
+          <li><a class="nav-items" href="ContactForm.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Profile Page -->
+    <section id="profile">
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="ashrayprofile.jpg"
+            alt="This is a profile picture"
+          />
+        </div>
+        <div class="section__text">
+          <div class="intro">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ashray</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+          </div>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="open('./Asset/Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="openContactForm()">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="Linkedinicon.jpg"
+              alt="My LinkedIn Profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/ashray-samal-7b52632b9'"
+            />
+            <img
+              src="githubbicon.jpg"
+              alt="My github Profile Profile"
+              class="icon"
+              onclick="location.href='https://www.github.com/ashraysamal'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Page  -->
+    <section id="About-page">
+      <p class="p1">Get To Know More</p>
+      <h1>About Me</h1>
+      <div class="About-Container">
+        <div class="About-pic-container">
+          <img src="ashray2.jpg" alt="This is an Image" />
+        </div>
+        <div class="About-Container-intro">
+          <div class="About-Container-intro-1">
+            <div class="E-C Experience-container">
+              <img src="experience.jpg" alt="Logo for experience" />
+              <!-- <p>2+ years</p> -->
+              <p>Frontend Development</p>
+            </div>
+            <div class="E-C Education-Qualification-Container">
+              <img src="student.jpg" alt="Education Logo" />
+              <p>B.Tech CSE</p>
+              <!-- <p>MTech Masters Degree</p> -->
+            </div>
+          </div>
+          <div class="About-Container-intro-2">
+            <p class="p2">
+              I am a normal computer science student turning coffee into codes and creating new solution for every new problem.
+              i am motivated and ethusiastic learner with passion for gaining practical experience in my field.
+              i bring a positive attitude and a willingness to contribute to thes success of my team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -Experience Section  -->
+    <section id="experience">
+      <p class="section_text_pq">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="skills-container">
+        <div class="skill-container-1">
+          <h1 class="skill-Domain">WEB-DEV</h1>
+          <div class="skills">
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="verified.jpg"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="verified.jpg"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+            <article>
+              <div class="checkmark-icon">
+                <img
+                  class="checkmark-icon"
+                  src="verified.jpg"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>JS</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="skill-container-2">
+          <h1 class="skill-Domain">Programming Languages</h1>
+          <div class="skills">
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="verified.jpg"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>PYTHON</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <img
+                  class="checkmark-icon"
+                  src="verified.jpg"
+                  alt="This is a checkmark image"
+                />
+              </div>
+              <div>
+                <h3>C</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Contact-Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <p>Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info">
+          <div class="contact-info-container">
+            <img src="emailicon.jpg" alt="Email icon" />
+            <p class="email"><a>ashrayas@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="Linkedinicon.jpg" alt="Email icon" />
+            <p class="Linkedin-link">
+              <a href="https://www.linkedin.com"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-Page -->
+    <footer>
+      <div>
+        <p>Copyright © 2024 Ashray. All Rights Reserved.</p>
+        <script src="script.js"></script>
+      </div>
+    </footer>
+  </body>
+</html>
